@@ -6,4 +6,4 @@ The original dataset is [here](https://docs.google.com/spreadsheets/d/1o2v5n--85
 
 Here is the [Python script](https://github.com/marty-vanhoof/Evolving_Choropleth/blob/master/data_manipulation.py) that does the initial data cleaning.  There were some records that were missing, and I didn't want to spend too much time with the initial cleaning, so I also did some quick and dirty imputation with Excel.  Basically, I first loaded the CSV file into Pandas, dropped rows that contained all NaN values, then did some imputation with Excel, loaded the script back into Pandas where I put it into tidy format, then exported it to the final [CSV file](https://github.com/marty-vanhoof/Evolving_Choropleth/blob/master/internet_users_per100_tidy.csv) that is used by d3.  The visualization also uses a GeoJSON file (world_countries.json) to encode the geography of the world map.
 
-The full visualization is here on [bl.ocks.org/](http://bl.ocks.org/marty-vanhoof/raw/09211ff7a97ca49afdedb8801e31baa8/).
+The full visualization is here on [bl.ocks.org/](http://bl.ocks.org/marty-vanhoof/raw/55697f255b87cb96950c6b3a226722b6/)
